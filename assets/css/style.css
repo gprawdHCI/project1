@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    background-color:#060636;
-    color: #145285
+    background-color:#ffafaf;
+    color: #ca0000
 }
 h1 {
     font-weight: normal;
@@ -27,14 +27,14 @@ input {
     margin: 1em 0;
     box-sizing: border-box;
     border: none;
-    background-color: #9b9bbe; 
+    background-color: #fdc5ec; 
 }
 form {
     padding-top: 1.5em;
     margin: 1em;
 }
 input[type=submit] {
-    background-color: #1c72b8;
+    background-color: #861212da;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
