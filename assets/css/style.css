@@ -48,6 +48,9 @@ input[type=submit] {
     border-radius: 5px;
     cursor: pointer;
   }
+input:hover {
+    color: rgb(252, 248, 248);
+  }
 #map {
     width: 800px;
     height: 600px;
