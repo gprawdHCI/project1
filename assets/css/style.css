@@ -59,8 +59,20 @@ input:hover {
 }
 @media only screen and (min-width: 720px) {
     #map {
-        width: 600px;
+        width: 800px;
         height: 500px;
         margin: 12px auto 
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #map {
+        width: 1000px;
+        height: 800px;
+        margin: 12px auto 
+    }
+    h4 {
+        font-size: 40pt;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }
