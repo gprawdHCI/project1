@@ -59,7 +59,7 @@ input:hover {
 }
 @media only screen and (min-width: 720px) {
     #map {
-        width: 800px;
+        width: 700px;
         height: 500px;
         margin: 12px auto 
     }
