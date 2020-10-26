@@ -1,19 +1,18 @@
 body {
   text-align: center;
   background-color:#ffafaf;
-  color: #ca0000
+  color: #ca0000;
+  font-family: 'Inter', 'Raleway', sans-serif;
 }
 h1 {
   font-weight: normal;
   font-size: 50pt;
-  font-family: Verdana, Arial, sans-serif;
   margin-left: 10px;
   margin-right: 10px;
 }
 h4 {
   font-weight: normal;
   font-size: 30pt;
-  font-family: Verdana, Arial, sans-serif;
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -21,13 +20,11 @@ h4 {
 p {
   font-weight: bold;
   color: #9b9bbe;
-  font-family: Verdana, Arial, sans-serif;
   margin-bottom : 20px;
 }
 label {
   font-weight: bold;
   font-size: 24pt;
-  font-family: Verdana, Arial, sans-serif;
 }
 input {
   width: 75%;
