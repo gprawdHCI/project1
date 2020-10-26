@@ -45,12 +45,13 @@ label {
   font-size: 1.25em;
 }
 input {
-  width: 75%;
+  width: 80%;
   padding: 1em 1.5em;
   margin: 1em 0;
   box-sizing: border-box;
   border: none;
-  background-color: #ffecec; 
+  background-color: rgb(252, 248, 248);
+  color: #161515;
 }
 form {
   padding-top: 1.5em;
@@ -64,7 +65,7 @@ input[type=submit] {
   cursor: pointer;
 }
 input:hover {
-  color: rgb(252, 248, 248);
+  background-color: #ffecec;
 }
 #map {
   width: 300px;
@@ -78,11 +79,29 @@ input:hover {
     height: 500px;
     margin: 12px auto 
   }
+  input{
+		width: 50%;
+  }
+  html {
+    font-size: 1.667em; /* 22px */
+    line-height: 1.182em; /* 26px / ~ 120% */
+    padding: 1.182em; /* 26px / ~ 120% */
+  }
 }
 @media only screen and (min-width: 1024px) {
   #map {
     width: 1000px;
     height: 800px;
     margin: 12px auto 
+  }
+  input{
+    padding-top: 50px;
+    width: 450px;
+    line-height: 1.182em;
+  }
+  html {
+    font-size: 2.779em; /* 22px */
+    line-height: 1.182em; /* 26px / ~ 120% */
+    padding: 1.0em; /* 26px / ~ 120% */
   }
 }
